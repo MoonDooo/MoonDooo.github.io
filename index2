@@ -1,0 +1,45 @@
+<doctype html> <!-- index.html -->
+<html><head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>개인 과제 리스트</title>
+ <style>
+  a:link {color :blue; text-decoration:none;} a:visited { color:purple; text-decoration:none;}
+  a:hover { text-decoration:underline;} a:active {color:red; text-decoration:none;}
+  </style></head>
+ <body>
+ <h1>임경완 과제 리스트</h1>
+   <ul><hr/>
+    <li>1_1</li>
+    <ol>
+     <li><a href="https://molra.github.io/week1/homework1_1.html"> homework1_1.html </a></li>
+    </ol>
+    <li>1_2</li>
+    <ol>
+     <li><a href="molra.github.io/html5/basicHtml.html"> basicHtml.html </a></li>
+    </ol>
+    <li>1_3</li>
+    <ol>
+     <li><a href="	https://molra.github.io/week1/homework1_3.html"> homework1_3.html </a></li>
+    </ol><hr/>
+   </ul>
+   </body></html>
+  
+  
+   <ul><hr/>
+    <li>2_1</li>
+    <ol>
+     <li><a href="molra.github.io/1/def.html"> def.html </a></li>
+    </ol>
+    <li>2_2</li>
+    <ol>
+     <li><a href="molra.github.io/1/loveKorea.html"> loveKorea.html </a></li>
+     <li><a href="molra.github.io/1/globalAttribute.html"> globalAttribute.html  </a></li>
+     <li><a href="molra.github.io/1/globalEvent.html"> globalEvent.html </a></li>
+    </ol>
+    <li>2주 3회차</li>
+    <ol>
+     <li><a href="molra.github.io/1/bodyBasic.html"> bodyBasic.html </a></li>
+    </ol><hr/>
+    <ul>
+     </body></html>
