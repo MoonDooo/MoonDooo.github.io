@@ -4,18 +4,51 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <style>table, thead, tbody, tfoot, tr, th, td {border: 1px solid black; border-collapse: collapse;}
-  .subjcet1 { background-color:lightgray;} .subject2{ background-color: #FAF4C0;}
+  .subject1 th {
+    font-weight: bold;
+    color: #168;
+    background: #f0f6f9;}
+  .subject2 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #0174DF;
+  }
+  .subject3 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #FA5858;
+  }
+  .subject4 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #D7DF01;
+  }
+  .subject5 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #04B431;
+  }
+  .subject6 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #DF7401;
+  }
+  .subject7 {
+    font-weight: bold;
+    color: #F5FBEF;
+    background: #2E2E2E;
+  }
   table{table-layout:fixed; margin: auto; align="center";}
   tr{text-align: center;}
-  td{height: 100px}
+  td{height:100px;}
   </style>
   <!-- border-collapse: collapse 단선으로, 반대는 separate -->
   <title>HTML5 시간표</title>
 </head>
 <body>
-  <table>
+  <table class ="subject1";>
     <colgroup>
-      <col width="5%";/>
+      <col style="background-color: #CEECF5;"; width="5%";/>
       <col width="12%";/>
       <col width="12%";/>
       <col width="12%";/>
@@ -30,32 +63,33 @@
     </thead>
     <tbody>
       <tr>
-        <td>09:00</td><td rowspan ="2">오토마타와 응용</br>24402</td><td></td><td rowspan="2">자료구조 및 실습</br>24403</td><td></td><td></td>
+        <td>09:00</td><td class = "subject2" rowspan ="2">오토마타와 응용</br>24402</td><td></td><td class ="subject3" rowspan="2">자료구조 및 실습</br>24403</td><td></td><td></td>
       </tr>
       <tr>
-        <td>10:00</td><td></td><td>오토마타와 응용</br>24402</td><td></td>
+        <td>10:00</td><td></td><td class = "subject2">오토마타와 응용</br>24402</td><td></td>
       </tr>
       <tr>
-        <td>11:00</td><td rowspan="2">디지털논리회로</br>24401</td><td>자료구조 및 실습</br>24403</td><td rowspan="2">전쟁사</br>19414</td><td></td><td></td>
+        <td>11:00</td><td rowspan="2" class="subject4">디지털논리회로</br>24401</td><td class ="subject3">자료구조 및 실습</br>24403</td><td class="subject7" rowspan="2">전쟁사</br>19414</td><td></td><td></td>
       </tr>
       <tr>
         <td>12:00</td><td></td><td></td><td></td>
       </tr>
       <tr>
-        <td>13:00</td><td></td><td>디지털 논리회로</br>24401</td><td></td><td></td><td></td>
+        <td>13:00</td><td></td><td class="subject4">디지털 논리회로</br>24401</td><td></td><td></td><td></td>
       </tr>
       <tr>
-        <td>14:00</td><td></td><td rowspan="4">C++ 프로그래밍</br>24414</td><td></td><td></td><td></td>
+        <td>14:00</td><td></td><td class ="subject6" rowspan="4">C++ 프로그래밍</br>24414</td><td></td><td></td><td></td>
       </tr>
       <tr>
-        <td>15:00</td><td></td><td rowspan ="2">인터넷 응용</br>24403</td><td></td><td></td>
+        <td>15:00</td><td></td><td class ="subject5" rowspan ="2">인터넷 응용</br>24403</td><td></td><td></td>
       </tr>
       <tr>
         <td>16:00</td><td></td><td></td><td></td>
       </tr>
       <tr>
-        <td>17:00</td><td></td><td></td><td></td><td>인터넷 응용</br>24403</td>
+        <td>17:00</td><td></td><td></td><td></td><td class ="subject5">인터넷 응용</br>24403</td>
       </tr>
     </tbody>
   </body>
 </html>
+
