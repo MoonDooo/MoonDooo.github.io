@@ -1,1 +1,237 @@
-z
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+  .area {
+    width: 100px;  height:100px; background:white; margin:auto;
+    border:1px solid gold;
+  }
+  .radial-20 {
+    background: conic-gradient(#2E64FE 0% 20%, #fff 20% 100%);
+    width:500px;
+    height:500px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
+
+  }
+  .radial-100 {
+    background: conic-gradient(#CED8F6 0% 100%);
+    width:500px;
+    height:500px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
+
+  }
+  .white		{	width:70%; height:70%; background:white;
+          margin:14.7%;
+          border-radius:100%;
+          line-height:65px; text-align:center;
+          font-size:25px;
+  }
+  .headerDiv1{
+    width: 100%;
+    height: 150px;
+    background:  linear-gradient(to bottom, #ABC0ED, #C7D5ED, #f6f8fc);
+    margin : 0 auto 0 auto;
+    position: relative;
+  }
+  .headerDiv2{
+    padding-top: 70px;
+    width: 160px;
+    height:110px;
+    background:#D8D8D8;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative; left:200px; top: -50px;
+  }
+  main{
+    margin-left: 200px;
+    float: left;
+    margin-right: 200px;
+  }
+  section{
+    padding-right: 200px;
+    border-right: 1px solid gray;
+  }
+  nav{
+    font-weight: bolder;
+    padding-left: 250px;
+    font-size : 50px;
+    color: #a6a6a6;
+  }
+  main section ul {
+    "list-style-type: disc;"
+  }
+  main section ol{
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  main section li{
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  a:link{
+    color: black;
+    text-decoration: underline;
+  }
+  a:visited{
+    color: blue;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+  a:active{
+    color: gray;
+  }
+  main section table {
+    width: 900px;
+    margin-left: 150px;
+    border: 2px;
+  }
+  main section th {
+    height: 80px;
+    font-size: 30px;
+  }
+  main section th, td{
+    width: 280px;
+    border: 2px;
+  }
+  main section thead{
+    background-color :#2E64FE;
+    color: white;
+  }
+  main section td {
+    height: 100px;
+    font-size:30px;
+    text-align: center;
+  }
+  main section h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .div1{
+    margin-bottom: 25px;
+    padding-top:25px;
+    font-size: 30px;
+    font-weight: bold;
+    height: 75px;
+  }
+  footer {
+    clear: both;
+    padding-left: 200px;
+    font-size: 15px;
+    padding-right: 200px;
+  }
+  aside{
+    position: sticky;
+    top: 500px;
+    right: 150px;
+    float: right;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+  }
+  aside a img{
+    width: 100px;
+    height: 100px;
+  }
+  </style>
+  <title>임경완 포트폴리오</title>
+</head>
+<body>
+  <header>
+    <div class="headerDiv1"></div>
+    <div class="headerDiv2">사 진</div>
+  </header>
+  <nav>사용자를 위한 개발자가 목표인,</br>임경완 입니다.</nav>
+  <main>
+    <section>
+      <ol>자기소개</ol>
+      <li>안녕하십니까? 백엔드 개발자가 목표인 임경완입니다.</li>
+      <li>좋은 개발자는 사용자를 위한 개발을 한다고 생각하며, 이런 개발자가 되기 위해 노력하고 있습니다.</li>
+      <li>6개월마다 개인 프로젝트와 1주일마다 실력향상에 도움이 될 수 있는 1 커밋을 하고 있습니다.</li>
+    </section>
+    <section>
+      <ol>Github & Email</ol>
+      <li>Email: ruddhks9937@gmail.com</li>
+      <li><a href="https://github.com/molra" target="_blank" title="깃허브 주소">https://github.com/molra</a>
+    </section>
+    <hr>
+    <section>
+      <ol>수강 과목</ol>
+      <table>
+        <thead>
+          <tr>
+            <th>2학년</th>
+            <th>3학년</th>
+            <th>4학년</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr bgcolor="#CED8F6">
+            <td>인터넷 응용</td>
+            <td>데이터베이스</br>시스템</td>
+            <td>네트워크</br>프로그래밍</td>
+          </tr>
+          <tr bgcolor="#819FF7">
+            <td>데이터</br>모델링</td>
+            <td>웹 서버 응용</td>
+            <td></td>
+          </tr>
+          <tr bgcolor="#CED8F6">
+            <td>알고리즘 및</br>실습</td>
+            <td>네트워크와</br>데이터 통신</td>
+            <td></td>
+          </tr>
+      </table>
+    </section>
+    <section>
+      <ol>Project</ol>
+      <div class="radial-100">
+        <div class="white">100%</div>
+      </div>
+      <div class = "div1"><a href="https://molra.github.io/portfolio.html" target= "_blank" title="포트폴리오 홈페이지 구축 github">포트폴리오 홈페이지 구축</a></div>
+      <div class="radial-20">
+        <div class="white">20%</div>
+      </div>
+      <div class = "div1">수강신청 과목 추천 프로젝트</div>
+    </section>
+  <hr>
+    <section>
+      <ol>자격증 & 대회 경력</ol>
+      <li>정보처리 기능사</li>
+      <li>성적 장학금 1회</li>
+    </section>
+  </main>
+  <aside>
+    <a href="https://www.naver.com" target="_blank">
+      <img src="네이버 카페.png" alt="네이버 카페">
+    </a>
+  </aside>
+  <footer>
+    <hr>
+    <p>@2021-05-24 임경완</p>
+    <p>@Email : ruddhks9937@gmail.com</p>
+  </footer>
+</body>
+</html>
