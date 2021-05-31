@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <style>
   .area {
     width: 100px;  height:100px; background:white; margin:auto;
@@ -41,10 +41,9 @@
           font-size:25px;
   }
   .headerDiv1{
-    width: 1800px;
+    width: 1900px;
     height: 150px;
     background:  linear-gradient(to bottom, #ABC0ED, #C7D5ED, #f6f8fc);
-    margin : 0 auto 0 auto;
     position: relative;
   }
   .headerDiv2{
@@ -68,7 +67,10 @@
     border-right: 1px solid gray;
   }
   nav{
+    width: 1000px;
+    float: left;
     font-weight: bolder;
+    clear: both;
     padding-left: 250px;
     font-size : 50px;
     color: #a6a6a6;
@@ -135,15 +137,20 @@
     height: 75px;
   }
   footer {
+    width: 1800px;
     clear: both;
     padding-left: 200px;
     font-size: 15px;
     padding-right: 200px;
   }
   aside{
-    position: sticky;
-    top: 500px;
-    right: 150px;
+    margin-top: 10px;
+    top: 450px;
+    right: 0px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 997;
+    visibility: visible;
     float: right;
     border: 1px solid gray;
     margin: 5px;
@@ -225,7 +232,7 @@
   </main>
   <aside>
     <a href="https://www.naver.com" target="_blank">
-      <img src="./images/네이버 카페.png" alt="네이버 카페">
+      <img src="네이버 카페.png" alt="네이버 카페">
     </a>
   </aside>
   <footer>
@@ -235,3 +242,4 @@
   </footer>
 </body>
 </html>
+
